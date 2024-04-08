@@ -6,7 +6,7 @@ session_start();
 $servername = "localhost";
 $username = "root";
 $password = ""; // Password for MySQL server
-$dbname = "php-bank"; // Replace 'php-bank' with your actual database name
+$dbname = "database_name"; // Replace 'database_name' with your actual database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
